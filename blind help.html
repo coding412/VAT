@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Assistive Technology</title>
+    <style>
+        :root {
+            --primary: #1A535C;
+            --secondary: #4ECDC4;
+            --accent: #FF6B6B;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            background: #F7FFF7;
+        }
+
+        .hero {
+            background: linear-gradient(45deg, var(--primary), #2D7A82);
+            color: white;
+            padding: 6rem 1rem;
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 3rem;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+            transition: transform 0.3s;
+        }
+
+        .roadmap {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- الهيدر -->
+    <header class="hero">
+        <h1 style="font-size: 3em; margin-bottom: 1rem;">👁️ Visionary Assistive Technology</h1>
+        <p style="font-size: 1.3em;">رؤية الذكاء الاصطناعي تُعيد تعريف الاستقلالية</p>
+    </header>
+
+    <!-- المشكلة والحل -->
+    <section class="feature-grid">
+        <div class="feature-card">
+            <h3 style="color: var(--primary);">❗ المشكلة</h3>
+            <ul>
+                <li>74% من المكفوفين يعتمدون على الآخرين في المهام اليومية</li>
+                <li>83% من المواد التعليمية غير متاحة بلغة برايل</li>
+            </ul>
+        </div>
+
+        <div class="feature-card">
+            <h3 style="color: var(--secondary);">💡 الحل الثوري</h3>
+            <ul>
+                <li>دمج 4 تقنيات مساعدة في تطبيق واحد</li>
+                <li>استجابة فورية في أقل من 0.3 ثانية</li>
+                <li>دقة تصل إلى 98.7% في التعرف على الأشياء</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- الميزات الأساسية -->
+    <section class="feature-grid">
+        <div class="feature-card">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="background: var(--primary); padding: 1rem; border-radius: 50%;">🎯</div>
+                <h3>التعرف الذكي على الأشياء</h3>
+            </div>
+            <p>يُحدد 500+ جسم يومي مع وصف تفصيلي صوتي</p>
+        </div>
+
+        <div class="feature-card">
+            <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="background: var(--secondary); padding: 1rem; border-radius: 50%;">🔤</div>
+                <h3>OCR ثنائي اللغة</h3>
+            </div>
+            <p>يدعم العربية والإنجليزية مع نطق صوتي واضح</p>
+        </div>
+    </section>
+
+    <!-- الخطط المستقبلية المعدلة -->
+    <section class="roadmap">
+        <h2>🚀 خارطة التطوير</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem;">
+            <div>
+                <h4>المرحلة الأولى</h4>
+                <p>دمج مساعد افتراضي ذكي</p>
+            </div>
+            <div>
+                <h4>المرحلة الثانية</h4>
+                <p>التكامل مع الأجهزة القابلة للارتداء</p>
+            </div>
+            <div>
+                <h4>المرحلة الثالثة</h4>
+                <p>تطوير نسخة متوافقة مع أنظمة آبل</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
